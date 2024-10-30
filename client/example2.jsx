@@ -20,3 +20,5 @@ const init = () => {
     root.render(<HelloUser username="Andrew" />);
 };
 window.onload = init;
+
+//npm install --save-dev react react-dom
