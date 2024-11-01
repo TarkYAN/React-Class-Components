@@ -1,3 +1,5 @@
+//npm install --save-dev react react-dom
+
 const React = require('react');
 const {useState} = React;
 const {createRoot} = require('react-dom/client');
@@ -21,4 +23,3 @@ const init = () => {
 };
 window.onload = init;
 
-//npm install --save-dev react react-dom
